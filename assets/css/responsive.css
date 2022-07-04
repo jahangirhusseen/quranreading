@@ -1,0 +1,198 @@
+/* ======================================================
+    ### Responsive Mobile-first Media Queries ###
+========================================================= */
+
+/* ---------------------- max1280px --------------------- */
+/* ------------------------------------------------------ */
+@media screen and (max-width : 1199px){
+
+    .banner-content {
+        padding-top: 70px;
+    }
+    .banner-content h1 {
+        font-size: 44px;
+        line-height: 54px;
+    }
+    .ellipse {
+        padding: 0px 3px;
+    }
+    .counter-content h2,
+    .surah-section .title h2 {
+        font-size: 38px;
+        line-height: 48px;
+    }
+    
+    .about-section {
+        padding-top: 130px;
+    }
+    .surah-section,
+    .blog-section {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .surah-title,
+    .blog-section .sub-title p {
+        margin-bottom: 40px !important;
+    }
+    .cta-content {
+        padding: 60px 0;
+    }
+    .scrollup {
+        right: 20px;
+    }
+}/* ------ end max1280px ------- */
+
+
+/* ---------------------- max992px ---------------------- */
+/* ------------------------------------------------------ */
+@media screen and (max-width : 992px) {
+    .navbar-menu {
+        margin-top: 20px !important;
+    }
+    .navbar-menu li a{
+        text-align: left;
+    }
+    .user-button {
+        display: flex;
+        margin-left: 10px;
+    }
+    .custom-btn {
+        padding: 5px 0px;
+        font-size: 16px;
+    }
+    .navbar-toggler:focus {
+        border: none;
+        box-shadow: none;
+    }
+    .navbar-toggler i{
+        color: #61594F;
+    }
+    .banner-content h1 {
+        font-size: 36px;
+        line-height: 46px;
+        width: 320px;
+    }
+    .counter-content {
+        border-right: 1px solid transparent;
+        margin-bottom: 40px;
+    }
+    .blog-content-title h3 {
+        width: 250px;
+    }
+    .blog-content-title p {
+        width: 280px;
+    }
+    .cta-content {
+        padding-bottom: 60px;
+        background-size: cover;
+        background-position: top center ;
+    }
+    .cta-content .sub-title p {
+        width: 340px;
+        font-size: 14px;
+        margin: 0 auto;
+        line-height: 24px;
+    }
+    .footer-content{
+        margin-bottom: 30px;
+    }
+    .scrollup {
+        right: 20px;
+    }
+    .res-rcbtn{
+        display: flex;
+    justify-content: center;
+    }
+    .reciters-content {
+        margin-top: 50px;
+    }
+    .rcbtn{
+        display: none;
+    }
+}/* ------ end max992px ------- */
+
+
+/* ---------------------- max768px ----------------------*/
+/* ------------------------------------------------------*/
+@media screen and (max-width : 768px) {	
+    
+    .banner-content h1 {
+        font-size: 36px;
+        line-height: 46px;
+        width: 320px;
+    }
+    .banner-content p {
+        width: 340px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+  .blog-content-title h3 {
+   width: 260px;
+   font-size: 18px;
+}
+.surah-section, .blog-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.blog-content-title p {
+    width: 260px;
+} 
+.about-content-text {
+    margin-top: 30px;
+}
+.surah-section .title {
+    margin: 30px auto;
+    text-align: center;
+}
+.cta-content .title {
+    width: 340px;
+    font-size: 26px;
+    line-height: 52px;
+    margin-bottom: 20px;
+}
+.cta-content .sub-title p {
+    width: 340px;
+    font-size: 14px;
+}
+
+.cta-content {
+    padding-bottom: 60px;
+    background-size: cover;
+    background-position: top left ;
+}
+.footer-title p {
+    margin-bottom: 12px;
+}
+.scrollup {
+    right: 40px;
+}
+.rcbtn{
+    display: none;
+}
+.slider-content{
+    margin: 0;
+}
+}/* ------ end max768px ------- */
+
+/* ---------------------- max575px -------------------- */
+/* ---------------------------------------------------- */
+
+@media screen and (max-width : 575px) {
+ 
+    .banner-content h1 {
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .scrollup {
+        right: 0px;
+    }
+    .slider-content{
+        margin: 0;
+    }
+    
+}/* ------ end max575px ------- */
+
+
+/*=============================================================
+//         							The End                         
+=============================================================== */

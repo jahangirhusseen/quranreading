@@ -1,0 +1,52 @@
+.one {
+    background-image: url('../images/reciters1.png');
+  margin-right: 20px;
+  }
+  
+  .two {
+    background-image: url('../images/reciters2.png');
+    margin-right: 20px;
+  }
+  
+  .three {
+    background-image: url('../images/reciters3.png');
+  }
+  .one,.two,.three{
+    width: 200px;
+    height: 380px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0px;
+  }
+
+  .slider-content{
+    text-align: center;
+    align-content: center;
+}
+.slider-content h3{
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+color: #FFFFFF;
+}
+.slider-content p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.slider-content {
+  width: 300px !IMPORTANT;
+  display: none;
+  margin: 45% 58px;
+  text-align: center;
+
+}
+
+.three.a .slider-content {
+  display: inline-block;
+
+}
